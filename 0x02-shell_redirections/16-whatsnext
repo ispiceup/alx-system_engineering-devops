@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -o root -1 /etc/passwd | wc -1
+grep -o root -1 /etc/passwd --after-context=3
